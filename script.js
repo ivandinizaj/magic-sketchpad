@@ -62,9 +62,9 @@ const sketch = function(p) {
       splashIsOpen = false;
       splash.classList.add('hidden');
     });
-    btnSave.addEventListener('click', () => {
-      p.saveCanvas('magic-sketchpad', 'jpg');
-    });
+    // btnSave.addEventListener('click', () => {
+    //   p.saveCanvas('magic-sketchpad', 'jpg');
+    // });
   };
   
   p.windowResized = function () {
